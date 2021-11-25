@@ -1,0 +1,154 @@
+html {
+	position: relative;
+}
+
+body {
+	margin-bottom: 120px;
+	margin-top: 30px;
+}
+
+.jumbotron {
+	height: 500px;
+	background-image: url(../img/header-bg.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 -140px;
+	overflow: hidden;
+	position: relative;
+}
+
+.jumbotron img {
+	width: 200px;
+	border: 5px solid #ddd;
+}
+
+.jumbotron h1, .jumbotron p {
+	color: rgba(255,255,255,.8);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+section {
+	min-height: 600px;
+}
+
+.kiri, .kanan {
+	opacity: 0;
+	transform: translate(-50px, 0);
+	transition: 1.2s;
+}
+
+.kanan {
+	transform: translate(50px, 0);
+}
+
+.kiri-go, .kanan-go {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+.portfolio {
+	margin-top: 20px;
+	padding-top: 40px;
+	height: 100%;
+	padding-bottom: 40px; 
+}
+
+.portfolio .thumbnail {
+	opacity: 0;
+	transform: translate(0,-40px);
+	transition: .3s;
+}
+
+.portfolio .thumbnail.muncul {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.contact {
+	padding-top: 30px;
+	min-height: 600px;
+}
+
+.about{
+	margin-top: 20px;
+	padding-top: 40px;
+	height: 100%;
+	padding-bottom: 40px;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+	padding-top: 30px;
+}
+
+footer p {
+	color: #aaa;
+	font-size: 0.9em;
+}
+
+footer p i {
+	color: salmon;
+}
+
+
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+
+
+
+
